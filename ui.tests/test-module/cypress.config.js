@@ -16,10 +16,10 @@
 
 const { defineConfig } = require("cypress");
 const reportsPath = process.env.REPORTS_PATH || 'cypress/results'
-const authorURL = process.env.AEM_AUTHOR_URL || 'http://localhost:4502'
+const authorURL = process.env.AEM_AUTHOR_URL || 'http://localhost:5502'
 const authorName = process.env.AEM_AUTHOR_USERNAME || 'admin'
 const authorPass = process.env.AEM_AUTHOR_PASSWORD || 'admin'
-const publishURL = process.env.AEM_PUBLISH_URL || 'http://localhost:4503'
+const publishURL = process.env.AEM_PUBLISH_URL || 'http://localhost:5503'
 const publishName = process.env.AEM_PUBLISH_USERNAME || 'admin'
 const publishPass = process.env.AEM_PUBLISH_PASSWORD || 'admin'
 
